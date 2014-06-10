@@ -66,4 +66,4 @@ PLATFORMS
 
 DEPENDENCIES
   foreman
-  tweetbot
+  tweetbot (~> 0.3)
