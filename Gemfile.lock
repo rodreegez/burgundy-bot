@@ -50,6 +50,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  faraday (~> 0.8)
   foreman
   tweetbot (~> 0.3)
   tweetstream (~> 2.5)
