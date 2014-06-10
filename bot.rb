@@ -11,10 +11,6 @@ bot = TweetBot.configure do |config|
     responses << "Milk was a bad choice!"
   end
 
-  config.respond_to_phrase "Milk was a bad choice." do |responses|
-    responses << "It's so damn hot!"
-  end
-
   config.twitter_auth = TwitterAuth::AuthKeys
 end
 
