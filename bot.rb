@@ -7,8 +7,8 @@ require 'tweetbot'
 bot = TweetBot.configure do |config|
   config.response_frequency = 100
 
-  config.respond_to_phrase "it's so damn hot." do |responses|
-    responses << "Milk was a bad choice!"
+  config.respond_to_phrase "it's so damn hot" do |responses|
+    responses << "Milk was a bad choice"
   end
 
   config.twitter_auth = TwitterAuth::AuthKeys
